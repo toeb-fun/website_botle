@@ -216,14 +216,6 @@ checkwin();
 document.getElementById('note').style.display = "none"
 };
 
-function clickinput() {
-  document.getElementById("guess1").blur();
-  document.getElementById("guess2").blur();
-  document.getElementById("guess3").blur();
-  document.getElementById("guess4").blur();
-  document.getElementById("guess5").blur();
-  document.getElementById("guess6").blur();
-};
 function clickPress(event) {
     window.guess_number = window.guess_number + 1;
     guess_word = document.getElementById("guess" + window.guess_number).value;
